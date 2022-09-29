@@ -2,8 +2,14 @@ name: vscode-example
 channels:
   - conda-forge
 dependencies:
-  - python = 3.6
+  - python >= 3.6
+  - pip
   - cmake >= 3.15
   - make
+  - gdb
   - numpy
+  - pandas
   - matplotlib
+  - plotnine
+  - ipykernel
+  - jupyter

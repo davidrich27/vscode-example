@@ -1,1 +1,0 @@
-g++-11 -O3 -DNDEBUG CMakeFiles/my_app.dir/src/app.cpp.o CMakeFiles/my_app.dir/src/math_stuff.cpp.o -o my_app 

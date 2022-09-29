@@ -1,3 +1,0 @@
-/home/devreckas/REMOTE-FredHutch/matsen-lab/vscode-example/build/CMakeFiles/my_app.dir
-/home/devreckas/REMOTE-FredHutch/matsen-lab/vscode-example/build/CMakeFiles/edit_cache.dir
-/home/devreckas/REMOTE-FredHutch/matsen-lab/vscode-example/build/CMakeFiles/rebuild_cache.dir

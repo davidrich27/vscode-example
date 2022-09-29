@@ -1,0 +1,29 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build_debug",
+      "detail": "Build debug of C++ project.",
+      "type": "shell",
+      "command": "cmake -B build-debug -DCMAKE_BUILD_TYPE=DEBUG && cd build-debug && make",
+      "args": [],
+      "group": "build",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "build_release",
+      "detail": "Build release of C++ project.",
+      "type": "shell",
+      "command": "cmake -B build -DCMAKE_BUILD_TYPE=RELEASE && cd build && make",
+      "args": [],
+      "group": "build",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    }
+  ]
+}
