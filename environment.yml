@@ -6,6 +6,7 @@ dependencies:
   - pip
   - cmake >= 3.15
   - make
+  - gxx >= 11.2
   - gdb
   - numpy
   - pandas
@@ -13,3 +14,4 @@ dependencies:
   - plotnine
   - ipykernel
   - jupyter
+  - docker
