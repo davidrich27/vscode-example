@@ -1,4 +1,4 @@
-# Install script for directory: /home/drich/matsen-lab/vscode-example-new
+# Install script for directory: /home/devreckas/REMOTE-FredHutch/matsen-lab/vscode-example-new
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/drich/matsen-lab/vscode-example-new/build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/devreckas/REMOTE-FredHutch/matsen-lab/vscode-example-new/build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

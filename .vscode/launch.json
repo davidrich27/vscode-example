@@ -14,9 +14,16 @@
         "test_1",
         "test_2"
       ],
+      "setupCommands": [
+        {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        }
+      ],
       "cwd": "${workspaceFolder}",
       "MIMode": "gdb",
-      "miDebuggerPath": "/home/drich/.conda/envs/vscode-example/bin/gdb",
+      "miDebuggerPath": "/bin/gdb",
       "stopAtEntry": true
     }
   ]
